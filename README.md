@@ -1,3 +1,2 @@
 # testing
-Description
-change
+Just learning python and git
