@@ -2,9 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib.ticker import MultipleLocator
-from mpl_toolkits.mplot3d import Axes3D
-
-
 
 
 def f(A,b,x):
@@ -34,7 +31,8 @@ def find_step(x,grad):
 
         if f_left > f_right:
             a_left = x_1
-        else: a_right = x_2
+        else:
+            a_right = x_2
         step_iteration += 1
 
     print(f"Итераций в подзадаче: {step_iteration}")
