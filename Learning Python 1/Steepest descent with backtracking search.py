@@ -14,7 +14,7 @@ def gradient(A,x,b):
 
 def get_step(x):
     t = 1
-    while f(A,x-t*grad,b) > f(A,x,b) + alpha * t * np.dot(grad,-grad):
+    while f(A,x-t*grad,b) > f(A,x,b) + alpha * t * np.dot(grad,-grad): # i. e. Armijo rule
         t = beta*t
     return t
 
