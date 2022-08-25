@@ -12,6 +12,8 @@ class Heap:
         return self.__array[0]
 
     def insert(self,x):
+        if len(self.__array) < self.__element_count + 1:
+            raise Exception("Cannot add more elements to heap. Heap is full.")
         self.__array[self.__element_count] = x
         self.__element_count += 1
 
