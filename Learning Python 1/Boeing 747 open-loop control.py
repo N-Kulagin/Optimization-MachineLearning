@@ -26,7 +26,7 @@ x3_history = np.array([x[3]])
 t_history = np.array([0])
 
 
-for t in range(1,121):
+for t in range(1,301): # 121
     x = A @ x
     x0_history = np.append(x0_history,[x[0]])
     x1_history = np.append(x1_history,[x[1]])
