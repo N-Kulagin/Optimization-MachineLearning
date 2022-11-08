@@ -1,4 +1,4 @@
-# Optimization algorithms and Machine Learning
+# Optimization Algorithms and Machine Learning
 
 Mostly interesting in fully programming 
 (i. e. without the use of libraries that do it automatically)
