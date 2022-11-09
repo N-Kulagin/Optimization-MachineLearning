@@ -30,5 +30,5 @@ Data Structures folder is me trying out some data structures implementations
 in Python, which of course isn't an optimal language for that kind of thing,
 but nonetheless it's a useful experience.
 
-Learning Python 1 folder is simply me trying out different features in python
+Learning Python folder is simply me trying out different features in python
 or solving some exercises.
