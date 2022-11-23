@@ -44,7 +44,7 @@ decrement = 5.0
 eps = 0.001
 step = 0.01
 
-eigval1_history, eigval2_history,  f_history = np.array([]), np.array([]), np.array([])
+eigval1_history, eigval2_history,  f_history, gap_history = np.array([]), np.array([]), np.array([]), np.array([])
 
 while duality_gap >= eps:
     while decrement/2.0 >= eps:
@@ -52,6 +52,8 @@ while duality_gap >= eps:
         eigval1_history = np.append(eigval1_history,l[0])
         eigval2_history = np.append(eigval2_history,l[1])
         f_history = np.append(f_history,np.dot(c,x))
+        gap_history = np.append(gap_history,duality_gap)
+
 
         hessian = get_hessian(x)
         solution = np.linalg.solve(hessian + 0.01*np.identity(2),-get_gradient(x))
@@ -84,9 +86,10 @@ ax1.set_ylabel('$\lambda_k$')
 ax1.legend(fontsize=20)
 
 ax2 = plt.subplot(gs[1,0])
-ax2.plot(f_history,marker='o',markerfacecolor='orange',markeredgecolor='blue',color='blue',lw=2,label='$f(x_k)$')
+ax2.plot(f_history,marker='o',markerfacecolor='orange',markeredgecolor='blue',color='blue',lw=2,label='$c^Tx_k$')
+ax2.plot(gap_history,marker='o',markerfacecolor='orange',markeredgecolor='black',color='orange',lw=2,label='$\\frac{p}{t_k}$')
 ax2.set_xlabel('Iteration number')
-ax2.set_ylabel('$f(x_k)$')
+ax2.set_ylabel('Function value and duality gap')
 ax2.legend(fontsize=20)
 
 plt.show()
