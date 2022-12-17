@@ -14,11 +14,11 @@ I often use functions which also appear in ML.
 Optimization algorithms are mostly taken from books such as J. Nocedal, S.
 Wright's Numerical Optimization, S. Boyd's Convex Optimization, A. Gasnikov's
 Universal Gradient Descent, S. Boyd's Stanford lectures on Convex Optimization
-and Convex Optimization II. Some algorithms are taken from papers which I
-collect myself.
+and Convex Optimization II, J. Dattorro's Convex Optimization & Euclidean Distance Geometry. 
+Some algorithms are taken from papers which I collect myself.
 
 Sometimes I leave the formulas used as screenshots, sometimes I leave reference
-in the code, but often I do not. Keep in mind this is not a textbook,
+in the code, but often I do neither. Keep in mind this is not a textbook,
 but a repository with implementations because often it's a whole another
 task to transform formulas into code for specific problems.
 
