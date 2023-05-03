@@ -1,0 +1,27 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+BFGS.py
+Boeing 747 open-loop control.py
+Conjugate Gradient Method.py
+Conjugate Gradient Non-Quadratic.py
+Dichotomy and Newton's method.py
+Dogleg Trust Region Method.py
+Levenberg-Marquardt exponential fit.py
+Levenberg-Marquardt.py
+Matrix Decompositions.py
+Newton's 2nd order method for optimization.py
+Steepest descent with backtracking search & random matrix.py
+Steepest descent with backtracking search.py
+Steepest descent with optimal numerical step length.py
+Steepest descent with random data.py
+Steepest descent.py
+Subgradient Constrained Minimization.py
+Subgradient Descent Box Constraint.py
+Subgradient Descent for Convex Function.py
+Trust Region Method with Exact Hessian.py
+signals.py
+
+/Learning Python/*
+/Data Structures/*
