@@ -1,8 +1,6 @@
 # Optimization Algorithms and Machine Learning
 
-Mostly interesting in fully programming 
-(i. e. without the use of libraries that do it automatically)
-different optimization algorithms, including constrained and unconstrained,
+Mostly interested in implementation of different optimization algorithms, including constrained and unconstrained,
 smooth and not smooth problems. Mostly convex optimization problems.
 
 Optimization Algorithms folder is focused on implementing optimization algorithms
