@@ -1,5 +1,8 @@
 # Optimization Algorithms and Machine Learning
 
+# Nelder-Mead algorithm visualization
+![](https://github.com/N-Kulagin/Optimization-MachineLearning/blob/main/Nelder-Mead.gif)
+
 Mostly interested in implementation of different optimization algorithms, including constrained and unconstrained,
 smooth and not smooth problems. Mostly convex optimization problems.
 
